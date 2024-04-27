@@ -72,7 +72,7 @@ function Contact() {
                   <iframe
                     className="map"
                     title="London Map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198625.58993935092!2d-0.2416818254474385!3d51.5287352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1625755057541!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3424442257024!2d103.6352419757444!3d1.5584734608681465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7154a58c424b%3A0x8c133d77584b5ff8!2sUniversiti%20Teknologi%20Malaysia!5e0!3m2!1sen!2seg!4v1714252000989!5m2!1sen!2seg"
                     allowFullScreen=""
                     loading="lazy"
                   ></iframe>

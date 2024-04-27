@@ -39,8 +39,7 @@ function Home() {
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
 
   useEffect(() => {
-    // Fetch or set background images
-    setBgImages(["pic1.jpg", "pic2.jpg", "pic3.jpg"]);
+    setBgImages(["pic1.jpeg", "pic2.jpeg", "pic3.jpeg"]);
   }, []);
 
   useEffect(() => {
@@ -48,7 +47,7 @@ function Home() {
       setCurrentBgIndex((prevIndex) =>
         prevIndex === bgImages.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change image every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [bgImages]);
@@ -56,36 +55,6 @@ function Home() {
   return (
     <div className="home-page">
       <Slide images={bgImages} currentIndex={currentBgIndex} />
-      {/* <header className="h-100 min-vh-100 d-flex align-items-center text-light">
-        <div className="container d-flex flex-column align-items-center">
-          <h2>Welcome To</h2>
-          <h1 className="text-center fw-semibold">UTM I-FIND</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
-            fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi
-            debitis, et quas voluptatibus nam ex. Necessitatibus eligendi
-            ratione expedita! Porro, ut.
-          </p>
-          <div className="d-flex flex-column flex-sm-row align-items-center">
-            <Link to="/courses">
-              <button
-                type="button"
-                className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-              >
-                Our Courses
-              </button>
-            </Link>
-            <Link to="/contact">
-              <button
-                type="button"
-                className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-              >
-                Contact Us
-              </button>
-            </Link>
-          </div>
-        </div>
-      </header> */}
 
       <div className="py-5">
         <ChooseSection />

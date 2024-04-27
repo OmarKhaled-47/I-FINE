@@ -70,3 +70,17 @@ nav .navbar-toggler:focus {
     font-size: 2rem;
   }
 }
+
+.nav-link {
+  font-size: 1.1rem;
+  /* Increase font size */
+  transition: all 0.3s ease-in-out;
+  /* Add transition effect */
+}
+
+.nav-link:hover {
+  font-size: 1.3rem;
+  /* Increase font size on hover */
+  color: #dc3545;
+  /* Change text color on hover */
+}
